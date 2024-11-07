@@ -1,7 +1,7 @@
 import localFont from "next/font/local";
 import 'react-toastify/dist/ReactToastify.css';
 import "./globals.css";
-import { ToastContainer } from "react-toastify";
+
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
     <body>
       {children}
-      {/* <ToastContainer position="top-right" autoClose={3000} /> */}
+     
     </body>
   
     </html>
